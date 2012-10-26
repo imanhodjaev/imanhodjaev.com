@@ -25,8 +25,8 @@ Now I'll describe how I bootstrapped my blog using [Liquidluck][] with regard to
 
 ### So simple to startup a new blog
 
-Its really cool and comfortable for me to execute one command and fill a few options to startup a new blog.
-Only three options on startup you need to fill unlike when you use [Pelican][] and it buys me.
+Its really cool and comfortable for me to execute one command and fill out a few options to startup a new blog.
+Only three options on startup you need to fill out unlike when you use [Pelican][] and it buys me.
 
 ````sh
 (akihiro)ninja blog: liquidluck init
