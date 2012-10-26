@@ -77,7 +77,7 @@ theme = {
     "vars": {
         "navigation": [
             {"name": "About", "link": "/about/"},
-            {"name": "Porjects", "link": "/projects/"},
+            {"name": "Projects", "link": "/projects/"},
         ],
         'descriptions': {
             'life': u'生命是一襲華美的袍，爬滿了虱子 －－ 張愛玲',
