@@ -9,7 +9,7 @@
 ![me][]
 
 
-I love developing websites using [Python][] and [Django][] bringning reliable and solid solutions for customers.
+I love to develop websites and solve general purpose tasks using [Python][] and [Django][] bringning reliable and solid solutions for customers.
 
 Information related to my projects you can find at [Projects][] page
 
