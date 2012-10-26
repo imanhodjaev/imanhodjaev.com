@@ -17,9 +17,12 @@ def pull(local_run=False):
     if local_run:
         local('git pull')
     else:
+        if not exists(env.build_dir):
+            make_build_dir()
+
         with cd(env.build_dir):
             if not exists('%s/.git' % env.build_dir):
-                run('git clone %s' % env.project_url)
+                run('git clone %s %s' % (env.project_url, env.build_dir))
             else:
                 run('git pull')
 
@@ -43,11 +46,10 @@ def make_build_dir():
 def update_static():
     with cd(env.build_dir):
         run('rm -rf %s/*' % env.project)                    # Remove old contents
-        run('cp -rf %s/* %s/*' % ('content', env.project))  # Copy generated static site into webroot
+        run('cp -rf %s/* %s/' % ('deploy', env.project))   # Copy generated static site into webroot
 
 
 def deploy():
-    make_build_dir()
     pull()
     g(remote=True)
     update_static()

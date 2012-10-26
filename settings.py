@@ -5,7 +5,7 @@
 #: all variables can be accessed in template with ``site`` namespace.
 #: for instance: {{site.name}}
 site = {
-    "name": "Akihiro",  # your site name
+    "name": "Sultan",  # your site name
     "url": "http://imanhodjaev.com",  # your site url
     # "prefix": "blog",
 }
