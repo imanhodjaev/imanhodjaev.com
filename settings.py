@@ -21,7 +21,7 @@ config = {
     "relative_url": False,
     "perpage": 30,
     "feedcount": 20,
-    "timezone": "+08:00",
+    "timezone": "+06:00",
 }
 
 
