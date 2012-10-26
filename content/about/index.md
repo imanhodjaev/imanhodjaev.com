@@ -56,7 +56,7 @@ And this blog is just about that I need to share my experience and keep my mind 
 [python]: http://python.org "Python programming language"
 [django]: http://djangoproject.com "The Web framework for perfectionists with deadlines."
 [repo]: https://github.com/imanhodjaev/imanhodjaev.com "My blog's sources on GitHub"
-[github]: http://github.com "GitHub"
+[github]: http://github.com/imanhodjaev "GitHub"
 [twitter]: http://twitter.com/imanhodjaev "@imanhodjaev"
 [linkedin]: http://www.linkedin.com/in/imanhodjaev/ "I'm in Linkedin"
 [facebook]: https://www.facebook.com/sultan.imanhodjaev "My Facebook page"
