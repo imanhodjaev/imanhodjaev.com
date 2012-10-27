@@ -1,6 +1,6 @@
 # What is Liquidluck
 
-- date: 2012-10-26
+- date: 2012-10-27
 - category: liquidluck
 - tags: tech, python, liquidluck
 
