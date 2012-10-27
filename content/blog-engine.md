@@ -6,7 +6,7 @@
 
 ------
 
-So far I considered dosens of static blog generation engines [Pelican][], [Hyde][], [Jekyll][] 
+So far I considered dosens of static blog generation engines [Pelican][], [Hyde][], [Jekyll][]
 (even [more][] list of static website generation engines) and finally chosed [Liquidluck][].
 
 
@@ -62,8 +62,8 @@ Enable Livereload Server by installing tornado
 
 
 ### Built-in dev-server
-[Liquidluck][] has a built in dev server which is really great when you prepare you articles.
-Though you still can manuall open index.html file using your browser.
+[Liquidluck][] has a built in dev server which is really great when you prepare new articles.
+Though you still can manually open **index.html** file using your browser.
 
 ````sh
 (akihiro)ninja akihiro: liquidluck server
@@ -150,11 +150,12 @@ def deploy():
 You can find some basic [themes][] at <http://lab.lepture.com/liquidluck/>.
 [Liquidluck][] uses [Jinja2][] templating engine so it is not so hard to render a new theme if you wish one.
 
-To install a theme just type option "g" for global installation
+To install a theme just type
 
 ````sh
 (akihiro)ninja akihiro: liquidluck install moment -g
 ````
+option "g" for global installation
 
 
 ### Committing & publishing changes
