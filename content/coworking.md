@@ -10,7 +10,7 @@ Hats off IT-guys now we have sort of "IT-loft" in Bishkek a coworking space for 
 
 ![im1][]
 
-Everyone realize that communitcation plays significant role in out career and personal development.
+Everyone realize that communitcation plays significant role in our career and personal development.
 [CoworkingKG][] provides such a platform for us so I decided to reserve a space to work.
 
 ### Beginning
