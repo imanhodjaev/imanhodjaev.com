@@ -83,7 +83,7 @@ theme = {
             'life': u'生命是一襲華美的袍，爬滿了虱子 －－ 張愛玲',
             'work': 'works in python, javascript, vim, and everything else'
         },
-        #"disqus": "your_short_name",
+        "disqus": "imanhodjaev",
         "analytics": "UA-35887744-1",
     }
 }
