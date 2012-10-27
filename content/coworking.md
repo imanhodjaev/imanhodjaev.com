@@ -1,4 +1,4 @@
-# We have coworking space in Bishkek
+# We have a coworking space in Bishkek
 
 - date: 2012-10-27
 - category: coworking
@@ -27,7 +27,7 @@ I found these photos @[CoworkingKG][]'s Facebook page
 ![airseat]
 
 #### Aaaand there was opening
-Greet [Maksat Sabyrov][] his is founder of @[CoworkingKG][]!
+Greet [Maksat Sabyrov][] his is a founder of @[CoworkingKG][]!
 
 ![founder][]
 
