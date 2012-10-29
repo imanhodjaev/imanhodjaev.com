@@ -41,6 +41,8 @@ Information related to my projects you can find at [Projects][] page
  4. Swimming
  5. Reading
 
+### CV
++ You can [view my cv][]
 
 And this blog is just about that I need to share my experience and keep my mind notes in one place.
 
@@ -61,3 +63,4 @@ And this blog is just about that I need to share my experience and keep my mind 
 [linkedin]: http://www.linkedin.com/in/imanhodjaev/ "I'm in Linkedin"
 [facebook]: https://www.facebook.com/sultan.imanhodjaev "My Facebook page"
 [projects]: /projects/ "My projects"
+[view my cv]: /media/cv.pdf
