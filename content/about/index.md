@@ -54,7 +54,7 @@ And this blog is just about that I need to share my experience and keep my mind 
 
 
 
-[me]: /media/me.jpeg "At Newseum WDC"
+[me]: http://imanhodjaev.com/media/me.jpeg "At Newseum WDC"
 [python]: http://python.org "Python programming language"
 [django]: http://djangoproject.com "The Web framework for perfectionists with deadlines."
 [repo]: https://github.com/imanhodjaev/imanhodjaev.com "My blog's sources on GitHub"
