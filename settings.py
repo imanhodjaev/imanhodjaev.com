@@ -17,7 +17,7 @@ config = {
     "output": "deploy",
     "static": "deploy/static",
     "static_prefix": "/static/",
-    "permalink": "{{date.year}}/{{date.day}}/{{date.month}}/{{filename}}/index.html",
+    "permalink": "{{date.year}}/{{date.month}}/{{date.day}}/{{filename}}/index.html",
     "relative_url": False,
     "perpage": 30,
     "feedcount": 20,
