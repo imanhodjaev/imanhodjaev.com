@@ -31,7 +31,8 @@ def create_item(request):
 ````
 
 This code is more clear and easier to understand.
-Thats all first part of "how to work with form" series.
+
+Thats all for the first part of "how to work with form" series.
 I decided to write a small bit at a time
 so you don't get confused.
 
