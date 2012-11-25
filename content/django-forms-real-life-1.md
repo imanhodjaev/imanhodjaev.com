@@ -20,7 +20,7 @@ def create_item(request):
         # do something
 ````
 
-So its valid and this kind of code works just fine and in real life this code get shorter
+So its valid and this kind of code works just fine and in real life this code gets shorter
 
 ````python
 def create_item(request):
@@ -31,7 +31,8 @@ def create_item(request):
 ````
 
 This code is more clear and easier to understand.
-Thats all first part of "how to work with form" series, I decided to write a small bit at a time
+Thats all first part of "how to work with form" series.
+I decided to write a small bit at a time
 so you don't get confused.
 
 
