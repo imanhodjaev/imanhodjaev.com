@@ -35,7 +35,7 @@ def g(remote=False):
         local('liquidluck build -v')
 
 
-def server():
+def s():
     local('liquidluck server')
 
 
