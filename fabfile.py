@@ -49,7 +49,7 @@ def update_static():
         run('cp -rf %s/* %s/' % ('deploy', env.project))   # Copy generated static site into webroot
 
 
-def deploy():
+def launch():
     pull()
     g(remote=True)
     update_static()
