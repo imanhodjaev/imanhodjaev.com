@@ -50,6 +50,7 @@ def update_static():
 
 
 def launch():
+    local('git push')
     pull()
     g(remote=True)
     update_static()
