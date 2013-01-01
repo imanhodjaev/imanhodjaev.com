@@ -6,7 +6,7 @@
 
 ------
 
-## I can't stop watchinging this ;)
+## I can't stop watching this ;)
 
 ![funny cat][]
 
