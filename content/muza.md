@@ -1,4 +1,4 @@
-# We have a coworking space in Bishkek
+# Любофь 
 
 - date: 2013-03-25
 - category: confidence
