@@ -1,9 +1,8 @@
 # We have a coworking space in Bishkek
 
-- date: 2012-03-25
+- date: 2013-03-25
 - category: confidence
-- tags: she is awesome
-
+- tags: любофь
 ------
 
 ## Люблю
