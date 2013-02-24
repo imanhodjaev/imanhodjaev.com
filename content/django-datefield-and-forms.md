@@ -10,7 +10,7 @@
 
 Lets say you have the following model and  forms
 
-### model
+### Model
 ````python
 class MyModel(models.Model):
     field = forms.CharField(max_length=100)
