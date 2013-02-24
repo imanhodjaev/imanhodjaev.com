@@ -25,7 +25,7 @@ class MyForm(forms.ModelForm):
 ````
 
 So then if you try to render field **expires** within a template you'll see nothing.
-All this because of **![auto_now_add][]** parameter.
+All this because of **[auto_now_add][]** parameter.
 
     Note
     As currently implemented, setting auto_now or auto_now_add to True will cause the field to have editable=False and blank=True set.
