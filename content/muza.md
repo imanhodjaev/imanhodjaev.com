@@ -1,6 +1,6 @@
 # Любофь 
 
-- date: 2013-03-25
+- date: 2013-02-25
 - category: confidence
 - tags: любофь
 ------
