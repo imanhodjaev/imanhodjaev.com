@@ -6,7 +6,7 @@
 
 ------
 
-## You need to serve you local media files while developing a project, just add the following code into your main urls.py file.
+If you need to serve you local media files while developing a project, just add the following code into your main urls.py file.
 
 
 ### urls.py
