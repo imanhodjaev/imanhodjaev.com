@@ -1,6 +1,6 @@
 from django.db import models
 
-from apps.auth.models import User
+from apps.my_auth.models import User
 
 
 class AbstractDatetime(models.Model):

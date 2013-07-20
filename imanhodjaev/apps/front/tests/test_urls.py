@@ -1,7 +1,7 @@
 from django.test import TestCase
 from django.core.urlresolvers import reverse
 
-from apps.auth.models import User
+from apps.my_auth.models import User
 from apps.project.models import Post
 
 

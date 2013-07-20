@@ -14,7 +14,7 @@ DEBUG = True
 TEMPLATE_DEBUG = True
 ALLOWED_HOSTS = ['*']
 SECRET_KEY = '89%29-=#c9f*@cx*lxv%6s%-j@etf*2)%f)bm2pzxuo8jo$n&t'
-
+AUTH_USER_MODEL = 'my_auth.User'
 
 MIDDLEWARE_CLASSES = [
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -37,10 +37,10 @@ DJANGO_APPS = [
 
 
 MY_APPS = [
-    'apps.auth',
     'apps.util',
     'apps.front',
     'apps.project',
+    'apps.my_auth',
 ]
 
 
