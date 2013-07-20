@@ -65,6 +65,13 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 
+THUMBNAIL_ALIASES = {
+    '': {
+        'avatar': {'size': (150, 150), 'crop': True},
+    },
+}
+
+
 def extend_list_avoid_repeats(list_to_extend, extend_with):
     """
     Extends the first list with the elements in the second one,

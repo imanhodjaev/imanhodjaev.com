@@ -1,2 +1,3 @@
 PIL
 Pillow
+easy-thumbnails
