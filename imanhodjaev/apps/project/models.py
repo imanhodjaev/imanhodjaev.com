@@ -24,8 +24,8 @@ class Post(AbstractDatetime):
     project = models.ForeignKey(Project, null=True, blank=True)
     author = models.ForeignKey(User)
 
-    images = models.ForeignKey(PostImage, null=True, blank=True)
-    files = models.ForeignKey(PostFile, null=True, blank=True)
+    images = models.ForeignKey('PostImage', null=True, blank=True)
+    files = models.ForeignKey('PostFile', null=True, blank=True)
 
 
 class PostImage(AbstractDatetime):
