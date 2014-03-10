@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block page_title %}
+    {{ super() }} | I AM Sultan
+{% endblock %}
+
+
+{% block content %}
+    <section class="content">
+        <h1 class="title">I AM Sultan.</h1>
+
+        <h3 class="title top-margin-40px">
+            Software engineer by formal education.
+            Passionate and enthusiast full stack developer.
+        </h3>
+
+        <p>
+            I've been coding for AcmaHolding ltd. on <a href="http://geophrasebook.com">Geophrasebook</a>.
+        </p>
+        <p>
+            You can find me on
+            <a href="{{ config.GITHUB_URL }}">GitHub</a>,
+            <a href="{{ config.LINKEDIN_URL }}">LinkedIn</a>
+            and <a href="{{ config.TWITTER_URL }}">Twitter</a>
+        </p>
+    </section>
+{% endblock %}

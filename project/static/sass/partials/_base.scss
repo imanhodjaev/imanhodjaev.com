@@ -1,0 +1,20 @@
+// Font weights
+$light: 100;
+$normal: 200;
+$regular: 400;
+$bold: 600;
+
+// Form elements base heights
+$input_base_height: 28px;
+$button_base_height: $input_base_height;
+
+// Base Font
+$base-title-font-family: "Raleway", "Helvetica Neue", sans-serif, serif;
+$base-font-family: "Open Sans Condensed", "Helvetica Neue", sans-serif, serif;
+$regular-text-font-family: "Raleway", Helvetica, Arial, "Lucida Grande", sans-serif;
+$code-font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+$base-font-weight: $normal;
+
+.clear {
+    clear: both;
+}

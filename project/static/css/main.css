@@ -1,0 +1,300 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700;Raleway:200,300&subset=latin,cyrillic);
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em,
+img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u,
+i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption,
+tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure,
+figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/flaticon.eot");
+  src: url("../fonts/flaticon.eot#iefix") format("embedded-opentype"), url("../fonts/flaticon.woff") format("woff"), url("../fonts/flaticon.ttf") format("truetype"), url("../fonts/flaticon.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+  font-family: Flaticon;
+  font-size: 20px;
+  font-style: normal; }
+
+.flaticon-github:before {
+  content: "\e000"; }
+
+.flaticon-linkedin:before {
+  content: "\e001"; }
+
+.flaticon-twitter:before {
+  content: "\e002"; }
+
+footer {
+  background: #fff;
+  padding: 30px 0 0 0;
+  position: relative;
+  z-index: 20; }
+  footer .copyright {
+    background: #ff6540;
+    color: #fff;
+    font-size: 12px;
+    line-height: 120%;
+    padding: 32px 0; }
+  footer .container {
+    width: 836px;
+    margin: 0 auto; }
+  footer .steps {
+    margin: 0 0 40px 18px;
+    text-align: center;
+    color: #555555; }
+    footer .steps.links {
+      margin-top: 65px;
+      margin-bottom: 25px; }
+      footer .steps.links a {
+        color: #ff6540;
+        text-decoration: none; }
+      footer .steps.links .link-title {
+        font-size: 20px;
+        margin: 15px 0 0 0; }
+    footer .steps .step {
+      float: left;
+      margin: 0 0 0 70px;
+      width: 180px; }
+      footer .steps .step .title {
+        font-size: 20px; }
+        footer .steps .step .title.active {
+          color: #2ecc71; }
+      footer .steps .step .description {
+        color: #747474;
+        font-size: 12px;
+        margin: 15px 0 0 0;
+        line-height: 120%; }
+  footer .footer-line {
+    display: block;
+    margin: 0 auto;
+    width: 834px; }
+
+.clear {
+  clear: both; }
+
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+p {
+  padding: 20px 0;
+  font-family: "Raleway", Helvetica, Arial, "Lucida Grande", sans-serif;
+  color: #505050; }
+
+h1 {
+  font-size: 36px; }
+
+h3 {
+  font-size: 24px; }
+
+h4 {
+  font-size: 22px; }
+
+a {
+  color: #32242c; }
+  a:active, a:visited {
+    color: #32242c; }
+  a:hover {
+    color: #366491; }
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 6px solid rgba(204, 204, 204, 0.4);
+  box-shadow: 1px 1px 8px #EEE;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  font-size: 18px;
+  quotes: "\201C" "\201D" "\2018" "\2019"; }
+  blockquote:before {
+    color: #CCC;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em; }
+  blockquote p {
+    display: inline;
+    line-height: 26px;
+    text-align: justify;
+    color: #505050; }
+  blockquote cite {
+    color: #999999;
+    font-size: 14px;
+    display: block;
+    margin-top: 15px; }
+    blockquote cite:before {
+      content: "\2014 \2009"; }
+
+body {
+  background: white;
+  font-family: "Open Sans Condensed", "Helvetica Neue", sans-serif, serif;
+  font-weight: 200; }
+
+h1, h2, h3, h4 {
+  margin: 10px 0;
+  font-family: "Raleway", "Helvetica Neue", sans-serif, serif;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  color: #505050; }
+  h1.title a, h2.title a, h3.title a, h4.title a {
+    text-decoration: none;
+    color: #505050; }
+    h1.title a:visited, h1.title a:active, h2.title a:visited, h2.title a:active, h3.title a:visited, h3.title a:active, h4.title a:visited, h4.title a:active {
+      color: #505050; }
+    h1.title a:hover, h2.title a:hover, h3.title a:hover, h4.title a:hover {
+      text-decoration: underline; }
+
+.top-margin-40px {
+  margin-top: 40px; }
+
+main {
+  position: relative;
+  min-height: 500px;
+  margin-left: 160px; }
+  main .content, main .more-posts {
+    width: 800px;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    padding: 40px 0px; }
+
+.post p {
+  padding: 5px 0; }
+.post .title {
+  margin-top: -5px; }
+
+.sidebar {
+  position: fixed;
+  top: 10px;
+  width: 140px;
+  padding: 10px 20px; }
+  .sidebar .avatar a, .sidebar .avatar a:hover,
+  .sidebar .avatar a:visited, .sidebar .avatar a:active {
+    font-size: 24px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.8); }
+  .sidebar .avatar img {
+    width: 100px;
+    height: 100px;
+    border-radius: 6px; }
+  .sidebar .links {
+    padding: 10px 0; }
+    .sidebar .links a {
+      margin-left: 10px;
+      padding: 0;
+      font-size: 24px;
+      text-decoration: none;
+      color: rgba(0, 0, 0, 0.8); }
+      .sidebar .links a:visited, .sidebar .links a:active {
+        color: rgba(0, 0, 0, 0.8); }
+      .sidebar .links a:hover {
+        color: #505050; }
+  .sidebar .pages a {
+    display: block;
+    padding: 8px 0;
+    font-size: 24px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.8); }
+    .sidebar .pages a:visited, .sidebar .pages a:active {
+      font-size: 24px;
+      color: rgba(0, 0, 0, 0.8); }
+    .sidebar .pages a:hover {
+      color: #505050; }
+
+section.project {
+  padding: 40px 0px;
+  border-top: 1px solid #EEEDDD; }
+  section.project.first {
+    border-top: 0; }
+
+footer {
+  position: absolute;
+  width: 100%;
+  margin-top: 60px;
+  font-size: 80%;
+  padding: 20px 0;
+  border-top: 1px solid #EAEAEA;
+  color: #999999; }
+  footer ul {
+    display: block;
+    margin-left: 140px; }
+    footer ul li {
+      display: inline-block;
+      margin-left: 5px;
+      list-style: none; }
+      footer ul li a {
+        text-decoration: none; }
+        footer ul li a:hover {
+          text-decoration: underline; }
+
+.active {
+  text-decoration: underline; }
+
+.datetime {
+  float: right;
+  margin-top: 5px;
+  font-size: 12px;
+  font-family: "Raleway", Helvetica, Arial, "Lucida Grande", sans-serif;
+  color: #838383; }
+
+.post-datetime {
+  position: absolute;
+  top: 38px;
+  left: 80px;
+  font-size: 12px;
+  font-family: "Raleway", Helvetica, Arial, "Lucida Grande", sans-serif;
+  color: #838383; }
+
+.posts {
+  margin-top: 40px; }
+  .posts li {
+    border-bottom: 1px solid #505050;
+    padding: 10px 0 5px 0; }
+    .posts li:hover {
+      border-bottom: 1px solid #366491; }
+    .posts li a {
+      text-decoration: none; }
+
+pre code {
+  line-height: 20px;
+  font-size: 14px;
+  font-family: Helvetica, Arial, "Lucida Grande", sans-serif; }

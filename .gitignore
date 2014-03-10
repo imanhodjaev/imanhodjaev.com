@@ -1,1 +1,15 @@
+.DS_Store
 *.pyc
+*.pyo
+env
+env*
+dist
+*.egg
+*.egg-info
+_mailinglist
+.tox
+.idea
+.idea/*
+.sass-cache
+out/*
+project/static/.sass-cache/

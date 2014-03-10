@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block page_title %}
+    {{ super() }} | Recent posts
+{% endblock %}
+
+
+{% block content %}
+
+<section class="content">
+    <h1 class="title">Posts</h1>
+
+    <ul class="posts">
+    {% for page in pages %}
+        <li{% if loop.first %} class="first"{% endif %}>
+            <a href="{{ url_for('page_detail', path=page.path) }}">
+                {{ page.meta.title }}
+                ({{ (page.body|striptags).split(" ")|length }} words)
+            </a>
+
+            <span class="datetime">{{ page.meta.date.strftime("%Y/%B/%d at %H:%m") }}</span>
+        </li>
+    {% endfor %}
+    </ul>
+</section>
+
+{% endblock %}

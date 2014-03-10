@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block page_title %}
+    {{ super() }} | {{ page.meta.title }}
+{% endblock %}
+
+{% block css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='js/highlight/styles/tomorrow.css') }}">
+{% endblock %}
+
+{% block content %}
+
+<section class="content post">
+    <h1 class="title">{{ page.meta.title }}</h1>
+    <p class="post-datetime">Posted <br/>{{ page.meta.date.strftime("%Y/%B/%d") }}</p>
+    {{ page }}
+</section>
+
+{% if pages|length >= 1 %}
+<section class="more-posts">
+
+    <h3 class="title">Recent Posts</h3>
+
+    <ul class="posts">
+    {% for p in pages %}
+        {% if p.title not in page.title %}
+        <li{% if loop.first %} class="first"{% endif %}>
+            <a href="{{ url_for('page_detail', path=p.path) }}">
+                {{ p.meta.title }}
+            </a>
+
+            <span class="datetime">
+                {{ p.meta.date.strftime("%Y/%B/%d") }}
+            </span>
+        </li>
+        {% endif %}
+    {% endfor %}
+    </ul>
+
+</section>
+{% endif %}
+
+{% endblock %}
+
+{% block js %}
+<script type="text/javascript" language="JavaScript" src="/static/js/highlight/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+{% endblock %}
