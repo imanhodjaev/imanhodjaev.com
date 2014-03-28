@@ -171,6 +171,7 @@ h1, h2, h3, h4 {
   margin: 10px 0;
   font-family: "Raleway", "Helvetica Neue", sans-serif, serif;
   font-weight: lighter;
+  line-height: 40px;
   letter-spacing: 2px;
   color: #505050; }
   h1.title a, h2.title a, h3.title a, h4.title a {
@@ -194,7 +195,9 @@ main {
     margin-left: 200px;
     margin-right: 20px;
     margin-bottom: 50px;
-    padding: 40px 0px; }
+    padding: 40px 0px;
+    line-height: 24px;
+    font-size: 18px; }
 
 .post p {
   padding: 5px 0; }
